@@ -5,10 +5,9 @@
 
 ## Instalación
 
-Clona el repositorio en tu máquina local y pon los siguientes comandos:
+Para clonar el repositorio en tu máquina local abre tu aplicación de gitbash y pon los siguientes comandos:
 
 ```bash
-# Clonar el repositorio
 git clone [https://github.com//KTreviD/tecnical-test.git](https://github.com/KTreviD/tecnical-test.git)
 - cd tecnical-test
 - npm install
