@@ -1,0 +1,25 @@
+{
+  "name": "tecnital-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:frontend": "cd frontend && npm start",  
+    "start:backend": "cd backend && npm start",    
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KTreviD/tecnital-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KTreviD/tecnital-test/issues"
+  },
+  "homepage": "https://github.com/KTreviD/tecnital-test#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
