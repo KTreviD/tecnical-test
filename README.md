@@ -8,7 +8,7 @@
 Para clonar el repositorio en tu máquina local abre tu aplicación de gitbash y pon los siguientes comandos:
 
 ```bash
-git clone https://github.com//KTreviD/tecnical-test.git
+git clone https://github.com/KTreviD/tecnical-test.git
 - cd tecnical-test
 - npm install
 - cd backend
