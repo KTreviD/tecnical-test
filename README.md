@@ -7,6 +7,8 @@
 
 Clona el repositorio en tu máquina local y pon los siguientes comandos:
 
+```bash
+# Clonar el repositorio
 git clone [https://github.com//KTreviD/tecnical-test.git](https://github.com/KTreviD/tecnical-test.git)
 - cd tecnical-test
 - npm install
@@ -16,5 +18,6 @@ git clone [https://github.com//KTreviD/tecnical-test.git](https://github.com/KTr
 - npm install
 - cd ../
 - npm start
+```
 
 Para fines practicos en el input del precio ingresa valores desde 295001 hasta 438999 que es lo que acepta este modelo de carro para evitar que salga el anuncio de alerta de la pagina
