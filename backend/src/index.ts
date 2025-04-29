@@ -22,7 +22,7 @@ app.post("/publishVehicle", async (req: Request, res: Response) => {
     const screenshotPath3 = path.join(imagesPath, screenshotNames[2]);
     const screenshotPath4 = path.join(imagesPath, screenshotNames[3]);
 
-    const browser = await puppeteer.launch({ headless: false });
+    const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
     await page.goto("https://admin.seminuevos.com/login", { waitUntil: "networkidle2" });
 
